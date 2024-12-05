@@ -4,12 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
-/**
- * See <a href="https://medium.com/@mohamedanees6/deep-dive-into-java-parallel-streams-6f3ef805cead">...</a>
- */
-public class SplitIteratorTest {
+// See https://medium.com/@mohamedanees6/deep-dive-into-java-parallel-streams-6f3ef805cead
+class SplitIteratorTest {
 
-    public static void main(String[] args) {
+    public static void main() {
         List<Integer> list = new ArrayList<>();
 
         IntStream.rangeClosed(1, 10).forEach(list::add);

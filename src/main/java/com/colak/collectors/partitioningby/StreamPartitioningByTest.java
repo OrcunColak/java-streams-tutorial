@@ -1,4 +1,4 @@
-package com.colak.streams.partitioningby;
+package com.colak.collectors.partitioningby;
 
 import lombok.extern.slf4j.Slf4j;
 
