@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class CollectingAndThenTest {
 
-    static class Employee {
+    private static class Employee {
         private String name;
         @Getter
         private double salary;
