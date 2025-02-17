@@ -1,4 +1,4 @@
-package com.colak.streams.splititerator;
+package com.colak.stream.splititerator;
 
 import java.util.ArrayList;
 import java.util.List;

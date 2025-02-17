@@ -1,4 +1,4 @@
-package com.colak.streams.takewhile;
+package com.colak.stream.takewhile;
 
 import lombok.extern.slf4j.Slf4j;
 

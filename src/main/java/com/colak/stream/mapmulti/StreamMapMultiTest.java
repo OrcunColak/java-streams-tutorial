@@ -1,4 +1,4 @@
-package com.colak.streams.mapmulti;
+package com.colak.stream.mapmulti;
 
 import lombok.extern.slf4j.Slf4j;
 

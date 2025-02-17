@@ -1,4 +1,4 @@
-package com.colak.streams.reduce;
+package com.colak.stream.reduce;
 
 import lombok.extern.slf4j.Slf4j;
 

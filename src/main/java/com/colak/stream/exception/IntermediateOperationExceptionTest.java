@@ -1,4 +1,4 @@
-package com.colak.streams.exception;
+package com.colak.stream.exception;
 
 import lombok.extern.slf4j.Slf4j;
 

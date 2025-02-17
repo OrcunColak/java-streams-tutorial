@@ -1,4 +1,4 @@
-package com.colak.streams.groupby.basic;
+package com.colak.stream.groupby.basic;
 
 import java.util.Arrays;
 import java.util.List;

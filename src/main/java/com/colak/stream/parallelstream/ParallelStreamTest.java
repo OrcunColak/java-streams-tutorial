@@ -1,4 +1,4 @@
-package com.colak.streams.parallelstream;
+package com.colak.stream.parallelstream;
 
 import lombok.extern.slf4j.Slf4j;
 

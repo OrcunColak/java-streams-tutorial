@@ -1,4 +1,4 @@
-package com.colak.streams.groupby.multilevel;
+package com.colak.stream.groupby.multilevel;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.colak.streams.groupby.transformvalues;
+package com.colak.stream.groupby.transformvalues;
 
 import lombok.extern.slf4j.Slf4j;
 
