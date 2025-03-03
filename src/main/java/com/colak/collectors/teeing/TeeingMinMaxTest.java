@@ -7,18 +7,20 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+// Find min and max at the same time
 @Slf4j
-public class TeeingTest {
+public class TeeingMinMaxTest {
 
     public static void main() {
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8);
         Map<String, Optional<Integer>> minMax = numbers.stream()
                 .collect(Collectors.teeing(
-                        Collectors.maxBy(Integer::compare),  // Finds max
                         Collectors.minBy(Integer::compare),  // Finds min
-                        (max, min) -> Map.of("Max", max, "Min", min)
+                        Collectors.maxBy(Integer::compare),  // Finds max
+
+                        (min, max) -> Map.of("Min", min, "Max", max)
                 ));
-        // Output: {Max=Optional[8], Min=Optional[1]}
+        // Output: {Min=Optional[1],Max=Optional[8]}
         log.info("Map : {}", minMax);
 
     }
